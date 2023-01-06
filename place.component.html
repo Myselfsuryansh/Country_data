@@ -1,0 +1,16 @@
+<!-- <p>place works!</p> -->
+<div class="formgroup box">
+    <form [formGroup]="formone"><label>COUNTRY:</label>
+        <input type="text" formControlName="countryname" class="form-control" placeholder="Enter your Country name">
+        <!-- <span class="text2" *ngIf="formone.controls.countryname.invalid && formone.controls.countryname.touched">Please
+            Enter Your Country Name....</span> -->
+
+
+
+        <div class="submit">
+            <input class="button" type="submit" id="btn" (click)="Clickme()" value="Register">
+
+        </div>
+    </form>
+</div>
+
